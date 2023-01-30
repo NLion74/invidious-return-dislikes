@@ -33,5 +33,8 @@ let video_data = JSON.parse(document.getElementById('video_data').innerHTML);
         });
     }
     let $dislike_count = document.getElementById("dislikes");
+    $dislike_count.style.display = null;
+    $dislike_count.style.visibility = null;
+
     doRequest(video_data.id);
 })();
