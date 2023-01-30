@@ -1,11 +1,7 @@
 # Return YouTube Dislikes for Invidious Instances
-Simple Tampermonkey script to return YouTube dislikes for Invidious Instances.
+Simple Tampermonkey script to return YouTube dislikes for Invidious Instances. Forked from https://github.com/dieser-niko/youtube-dislikes-invidious.
 
-
-## WARNING
-I'm not used to JavaScript. In fact this is the second script I've ever made with JavaScript.
-But since the code is relatively small, I'm confident that this is fine. At least it works..
+This Fork fixed dislike button not showing on invidious.
 
 ## How to install
-You need [Tampermonkey](https://www.tampermonkey.net/).
-Figure out the rest.
+You need to install [Tampermonkey](https://www.tampermonkey.net/) in your Browser. Afterwards just create a script, there just paste the script.
