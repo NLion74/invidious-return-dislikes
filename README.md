@@ -1,4 +1,4 @@
-# Return YouTube Dislikes for Invidious Instances
+# Various Scripts to fix the invidious experience
 Various Scripts for Invdious based on https://github.com/dieser-niko/youtube-dislikes-invidious.
 
 ## How to install
