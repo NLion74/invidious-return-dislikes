@@ -2,7 +2,7 @@
 // @name         ViewCount Invdious Fix
 // @namespace    NLion74/invidious-scripts/ViewCountInvidiousFix.user.js
 // @version      0.1
-// @description  Show ViewCount for a video on invidious instances, because it didnt work for me even on public instances
+// @description  Show ViewCount for a video on invidious instances, because it didnt work for me even on public instances. https://nlion.nl/
 // @author       nlion
 // @match        https://*/watch?v=*
 // @connect      returnyoutubedislikeapi.com
