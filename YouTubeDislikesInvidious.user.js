@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Return YouTube Dislike for Invidious
-// @namespace    dieser-niko/youtube-dislikes-invidious
-// @version      0.1
-// @description  Show dislikes for a video on iteroni.com invidious instance
-// @author       dieser-niko
+// @namespace    NLion74/invidious-scripts/YouTubeDislikesInvidious.user.js
+// @version      0.2
+// @description  Show dislikes for a video on all invidious instances
+// @author       nlion
 // @match        https://*/watch?v=*
 // @connect      returnyoutubedislikeapi.com
-// @icon         https://iteroni.com/favicon-32x32.png
+// @icon         https://iv.nlion.nl/favicon-32x32.png
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
