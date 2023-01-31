@@ -2,7 +2,7 @@
 // @name         Return YouTube Dislike for Invidious
 // @namespace    NLion74/invidious-scripts/YouTubeDislikesInvidious.user.js
 // @version      0.2
-// @description  Show dislikes for a video on all invidious instances
+// @description  Show dislikes for a video on all invidious instances. https://nlion.nl/
 // @author       nlion
 // @match        https://*/watch?v=*
 // @connect      returnyoutubedislikeapi.com
