@@ -2,7 +2,7 @@
 // @name         Return YouTube Dislike for Invidious
 // @namespace    NLion74/invidious-scripts/YouTubeDislikesInvidious.user.js
 // @version      0.2
-// @description  Show dislikes and rating for videos on all invidious instances. https://nlion.nl/
+// @description  Show dislikes for a video on all invidious instances. https://nlion.nl/
 // @author       nlion
 // @match        https://*/watch?v=*
 // @connect      returnyoutubedislikeapi.com
@@ -28,7 +28,7 @@ let video_data = JSON.parse(document.getElementById('video_data').innerHTML);
                 let jsonData = {};
                 jsonData = JSON.parse(data.responseText);
                 $dislike_count.innerHTML = '<p id="dislikes"><i class="icon ion-ios-thumbs-down"></i> ' + jsonData.dislikes + '</p>'
-                $dislike_count.innerHTML = '"Rating: " ' + Math.round( jsonData.rating * 100 + Number.EPSILON ) / 100 + ' / 5'
+                $dislike_count.innerHTML = 'Rating: ' + Math.round( jsonData.rating * 100 + Number.EPSILON ) / 100 + ' / 5'
             },
             anonymous: true
         });
@@ -36,7 +36,7 @@ let video_data = JSON.parse(document.getElementById('video_data').innerHTML);
     let $dislike_count = document.getElementById("dislikes");
     $dislike_count.style.display = null;
     $dislike_count.style.visibility = null;
-    
+
     let $rating = document.getElementById("rating");
     $dislike_count.style.display = null;
     $dislike_count.style.visibility = null;
