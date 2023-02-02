@@ -28,7 +28,7 @@ let video_data = JSON.parse(document.getElementById('video_data').innerHTML);
                 let jsonData = {};
                 jsonData = JSON.parse(data.responseText);
                 $dislike_count.innerHTML = '<p id="dislikes"><i class="icon ion-ios-thumbs-down"></i> ' + jsonData.dislikes + '</p>'
-                $dislike_count.innerHTML = 'Rating: ' + Math.round( jsonData.rating * 100 + Number.EPSILON ) / 100 + ' / 5'
+                $rating.innerHTML = 'Rating: ' + Math.round( jsonData.rating * 100 + Number.EPSILON ) / 100 + ' / 5'
             },
             anonymous: true
         });
@@ -38,8 +38,8 @@ let video_data = JSON.parse(document.getElementById('video_data').innerHTML);
     $dislike_count.style.visibility = null;
 
     let $rating = document.getElementById("rating");
-    $dislike_count.style.display = null;
-    $dislike_count.style.visibility = null;
+    $rating.style.display = null;
+    $rating.style.visibility = null;
 
     doRequest(video_data.id);
 })();
